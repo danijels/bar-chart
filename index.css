@@ -5,7 +5,7 @@ body {
   font-weight: bold;
 }
 
-h2 {
+h1 {
   text-align: center;
 }
 
@@ -15,9 +15,7 @@ h2 {
 
 #bottomText {
   font-size: 0.9em;
-  left: 500px;
-  position: absolute;
-  top: 515px;  
+  text-align: center;
 }
 
 #leftText {
