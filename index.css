@@ -1,0 +1,49 @@
+body {
+  background-color: rgba(33, 150, 243, 1);
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
+
+.bar:hover {
+  fill: rgba(179, 202, 219);
+}
+
+#bottomText {
+  font-size: 0.9em;
+  left: 500px;
+  position: absolute;
+  top: 515px;  
+}
+
+#leftText {
+  left: 0;
+  position: absolute;
+  top: 275px;
+  transform: rotate(-90deg);  
+}
+
+#container {
+  background-color: rgba(240, 240, 240);
+  height: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  width: 900px;
+}
+
+#tooltip {
+  background-color: RGBA(66, 123, 167, 0.85);
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px black;
+  color: white;
+  font-size: 0.8em;
+  padding: 0 20px;
+  position: absolute;
+  text-align: center;
+  top: 400px;
+  visibility: hidden;
+}
